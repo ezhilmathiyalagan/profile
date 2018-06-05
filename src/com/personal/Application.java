@@ -1,7 +1,8 @@
 package com.personal;
 
 public class Application {
-		public static double celsius(double f)
+
+	public static double celsius(double f)
 		{
 		double celsius = 5.0 / 9.0 * ( f - 32 );
 		return celsius;
@@ -15,9 +16,8 @@ public class Application {
 		public static void main(String[] args)
 		{
 			System.out.println(Application.celsius(100));
-			System.out.print(Application.fahrenheit(50));
+			System.out.println(Application.fahrenheit(50));
 	}
-	}
-
+}
 
 
