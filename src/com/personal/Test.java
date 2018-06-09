@@ -5,7 +5,7 @@ public static void main(String[]ags) {
 	Travel travelone=new Bus();
 	Travel traveltwo=new Cats();
 	System.out.println(travelone instanceof Bus);
-	System.out.println(traveltwo instanceof Cats);
+	System.out.println(traveltwo instanceof Cats );
 	
 }
 }
